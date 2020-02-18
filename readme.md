@@ -35,8 +35,11 @@ POST api/delivery-times | body: delivery_at
 ### Attach cities to delivery time
 POST cities/{city_id}/delivery-times | body: delivery_time
 
-### Excludes a delivery time span on a certain date for a given city
-POST api/dates/{date}/delivery-times | body: delivery_time(s) - city
+### Excludes a delivery time (s) span on a certain date for a given city
+POST api/dates/{date}/delivery-times | body: delivery_time - city
+you can also send a array of delivery_times IDs or just a ID 
 
+### Display the available delivery time spans on given day
+GET api/cities/{city_id}/delivery-dates-times/{number_of_days} 
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
