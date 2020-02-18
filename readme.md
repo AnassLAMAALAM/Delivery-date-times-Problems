@@ -1,8 +1,10 @@
 ## API
 
+###### # Install Dependencies
+
 composer install
 
-###### composer install
+
 
 php artisan migrate
 
