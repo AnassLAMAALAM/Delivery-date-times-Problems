@@ -42,4 +42,4 @@ you can also send a array of delivery_times IDs or just a ID
 ### Display the available delivery time spans on given day
 GET api/cities/{city_id}/delivery-dates-times/{number_of_days} 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
