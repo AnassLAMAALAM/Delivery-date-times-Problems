@@ -9,6 +9,14 @@ class CitiesController extends Controller
 {
     public function store(Request $request)
     {
-        if(City::create(['name' => $request->name])) return $request;
+
+        $city = City::create(['name' => $request->name]);
+        if (!$request->expectsJson())
+        {
+            return response()->json([
+                'message' => "Your city has been submitted successfully",
+                'city' => $city
+            ]);
+        }
     }
 }

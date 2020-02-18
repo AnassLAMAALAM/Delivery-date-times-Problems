@@ -10,7 +10,7 @@ class Date extends Model
 
     public function delivery_times()
     {
-        return $this->belongsToMany(Delivery_time::class,'date_delivery_time');
+        return $this->belongsToMany(Delivery_time::class,'city_delivery_time_date',);
     }
 
 }

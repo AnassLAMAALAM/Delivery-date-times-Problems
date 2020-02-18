@@ -11,12 +11,12 @@ class Delivery_time extends Model
 
     public function cities()
     {
-        return $this->belongsToMany(City::class,'city_delivery_time') ;
+        return $this->belongsToMany(City::class,'city_delivery_time_date') ;
     }
 
     public function dates()
     {
-        return $this->belongsToMany(Date::class,'date_delivery_time') ;
+        return $this->belongsToMany(Date::class,'city_delivery_time_date') ;
     }
 
 }
