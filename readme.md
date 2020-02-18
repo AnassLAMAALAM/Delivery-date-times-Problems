@@ -1,18 +1,17 @@
 ## API
 
-###### # Install Dependencies
-
+## Install Dependencies
 composer install
 
-
-
+## Run Migrations
 php artisan migrate
 
+## Import Articles
 php artisan db:seed
 
+## Learning Laravel
 php artisan key:generate
 
-## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
