@@ -2,16 +2,16 @@
 
 ## Quick Start
 
-###### # Install Dependencies
+###### * Install Dependencies
 composer install
 
-###### # Run Migrations
+###### * Run Migrations
 php artisan migrate
 
-###### # Import Articles
+###### * Import ressources
 php artisan db:seed
 
-###### # Learning Laravel
+###### * Learning Laravel
 php artisan key:generate
 
 
