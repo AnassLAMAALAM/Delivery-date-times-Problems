@@ -1,6 +1,6 @@
 ## API
 
-#### # Install Dependencies
+##### # Install Dependencies
 composer install
 
 #### # Run Migrations
