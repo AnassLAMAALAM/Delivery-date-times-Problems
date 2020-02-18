@@ -2,16 +2,25 @@
 
 ## Quick Start
 
-###### * Install Dependencies
+###### * Clone GitHub repo for this project locally
+git clone https://github.com/AnassLAM21/Delivery-date-times-Problem
+
+###### * cd into your project
+type cd projectName
+
+###### * Install Composer Dependencies
 composer install
 
-###### * Run Migrations
+###### * Create a copy of your .env file
+cp .env.example .env
+
+###### * Migrate the database
 php artisan migrate
 
-###### * Import ressources
+###### * Seed the database
 php artisan db:seed
 
-###### * Learning Laravel
+###### *Generate an app encryption key
 php artisan key:generate
 
 
