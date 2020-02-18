@@ -2,25 +2,25 @@
 
 ## Quick Start
 
-###### # Clone GitHub repo for this project locally
-- git clone https://github.com/AnassLAM21/Delivery-date-times-Problem 
+###### - Clone GitHub repo for this project locally
+git clone https://github.com/AnassLAM21/Delivery-date-times-Problem 
 
-###### # cd into your project
+###### - cd into your project
 type cd projectName
 
-###### # Install Composer Dependencies
+###### - Install Composer Dependencies
 composer install
 
-###### # Create a copy of your .env file
+###### - Create a copy of your .env file
 cp .env.example .env
 
-###### # Migrate the database
+###### - Migrate the database
 php artisan migrate
 
-###### # Seed the database
+###### - Seed the database
 php artisan db:seed
 
-###### # Generate an app encryption key
+###### - Generate an app encryption key
 php artisan key:generate
 
 
