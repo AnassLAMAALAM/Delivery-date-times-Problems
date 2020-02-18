@@ -24,6 +24,19 @@ php artisan db:seed
 php artisan key:generate
 
 
-## Laravel Sponsors
+## Endpoints
+
+### Add city
+POST api/cities | body: name 
+
+### Create delivery times
+POST api/delivery-times | body: delivery_at
+
+### Attach cities to delivery time
+POST cities/{city_id}/delivery-times | body: delivery_time
+
+### Excludes a delivery time span on a certain date for a given city
+POST api/dates/{date}/delivery-times | body: delivery_time(s) - city
+
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
