@@ -1,21 +1,3 @@
-## Quick Start
-
-# Install Dependencies
-
-
-composer install
-
-# Run Migrations
-php artisan migrate
-
-# Import Articles
-php artisan db:seed
-
-# Add virtual host if using Apache
-
-# If you get an error about an encryption key
-php artisan key:generate
-
 ## API
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
