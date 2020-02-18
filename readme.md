@@ -1,7 +1,7 @@
 # Delivery dates API
 
 ## Quick Start
-
+<div class="bg-gray"> 
 ###### Clone GitHub repo for this project locally
 - git clone https://github.com/AnassLAM21/Delivery-date-times-Problem 
 
@@ -22,7 +22,7 @@
 
 ###### Generate an app encryption key
 - php artisan key:generate
-
+</div>
 
 ## Endpoints
 
