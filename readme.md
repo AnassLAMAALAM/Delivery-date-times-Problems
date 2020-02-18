@@ -1,4 +1,4 @@
-## API
+## Quick Start
 
 ###### # Install Dependencies
 composer install
