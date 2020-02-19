@@ -33,12 +33,12 @@ class DeliveryTimesController extends Controller
         ->where('date','<', Carbon::now()
         ->addDays($number_of_days))->get();
 
-        $delivery_times =   City::find($city_id)->delivery_times;
-         $cities_id = $delivery_times->pluck('id');
-        $posts = Date::whereIN('user_id', $cities_id)->get();
-        with(['delivery_times.cities'])
-        ->where('date','<', Carbon::now()
-        ->addDays($number_of_days))->get();
+        //$delivery_times =   City::find($city_id)->delivery_times;
+        // $cities_id = $delivery_times->pluck('id');
+        //$posts = Date::whereIN('user_id', $cities_id)->get();
+        //with(['delivery_times.cities'])
+        //->where('date','<', Carbon::now()
+        //->addDays($number_of_days))->get();
 
 
     }

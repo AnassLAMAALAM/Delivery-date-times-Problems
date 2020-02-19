@@ -25,9 +25,10 @@ Route::post('delivery-times','DeliveryTimesController@store');
 //POST /api/cities/{city_id}/delivery-times | body: delivery_time(s) : attach cities to delivery time
 Route::post('cities/{city_id}/delivery-times','AttachDeliveryTimeToCity');
 
-//POST excludes a delivery time span on a certain date for a given city | body: delivery_time(s) - city : excludes a delivery time span on a certain date for a given city.
+//POST /api/dates/{date}/delivery-times | body: delivery_time(s) - city : excludes a delivery time span on a certain date for a given city.
 Route::post('dates/{date}/delivery-times','DetachDeliveryTimeToDateForCityController');
 
+//get /api/cities/{city_id}/delivery-dates-times/{number_of_days}  :display for them the available delivery time spans on that day
 Route::get('cities/{city_id}/delivery-dates-times/{number_of_days}','DeliveryTimesController@availabledeliverytime');
 
 ?>
