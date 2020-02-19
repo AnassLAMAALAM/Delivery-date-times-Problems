@@ -3,7 +3,7 @@
 ## Quick Start
 
 ###### Clone GitHub repo for this project locally
-- git clone https://github.com/AnassLAM21/Delivery-date-times-Problem 
+- git clone https://github.com/AnassLAM21/Delivery-date-times-Probleme
 
 ###### Cd into your project
 - type cd projectName
