@@ -21,6 +21,12 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('navbar-component', require('./components/NavbarComponent.vue').default);
+Vue.component('footer-component', require('./components/FooterComponent.vue').default);
+Vue.component('pricing-component', require('./components/PricingComponent.vue').default);
+Vue.component('jumbotron-component', require('./components/JumbotronComponent.vue').default);
+Vue.component('logos-component', require('./components/LogosComponent.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
