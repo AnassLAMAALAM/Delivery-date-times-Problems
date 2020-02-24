@@ -23,6 +23,13 @@
 ###### Generate an app encryption key
 - php artisan key:generate
 
+###### Install JS Dependencies
+- npm install
+
+######  Watch Files
+- npm run watch
+
+
 ## Endpoints
 
 ### Add city
