@@ -23,6 +23,9 @@
 ###### Generate an app encryption key
 - php artisan key:generate
 
+###### Running laravel project
+- php artisan serve
+
 ###### Install JS Dependencies
 - npm install
 
