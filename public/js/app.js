@@ -37393,7 +37393,7 @@ var render = function() {
     _c("div", { staticClass: "col-md-6" }, [
       _c("img", {
         staticClass: "img-fluid",
-        attrs: { src: "/images/cover1.jpg", alt: "Responsive image" }
+        attrs: { src: "/images/cover1.png", alt: "Responsive image" }
       })
     ])
   ])
@@ -37459,23 +37459,25 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row logos" }, [
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [
+        _c("img", { attrs: { src: "/images/logos/business-insider.png" } })
+      ])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/wired.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/urban-x.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/metropolis.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4  item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/curbed.png" } })])
     ]),
     _vm._v(" "),
     _vm._m(0)
@@ -37489,7 +37491,7 @@ var staticRenderFns = [
     return _c(
       "div",
       { staticClass: "col-md-2 col-sm-4", attrs: { id: "last-item" } },
-      [_c("i", { staticClass: "row-down" })]
+      [_c("i", { staticClass: "fas fa-arrow-down" })]
     )
   }
 ]
