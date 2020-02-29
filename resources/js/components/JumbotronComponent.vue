@@ -15,7 +15,7 @@
     </div>
   </div>
     <div class="col-md-6">
-    <img  :src="'/images/cover1.jpg'"  class="img-fluid" alt="Responsive image">
+    <img  :src="'/images/cover1.png'"  class="img-fluid" alt="Responsive image">
   </div>
 </div>
 </template>

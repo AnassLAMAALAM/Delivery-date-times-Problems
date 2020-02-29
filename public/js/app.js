@@ -37393,7 +37393,7 @@ var render = function() {
     _c("div", { staticClass: "col-md-6" }, [
       _c("img", {
         staticClass: "img-fluid",
-        attrs: { src: "/images/cover1.jpg", alt: "Responsive image" }
+        attrs: { src: "/images/cover1.png", alt: "Responsive image" }
       })
     ])
   ])
@@ -37459,23 +37459,25 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row logos" }, [
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [
+        _c("img", { attrs: { src: "/images/logos/business-insider.png" } })
+      ])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/wired.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/urban-x.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4 item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/metropolis.png" } })])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "col-md-2 col-sm-4  item" }, [
-      _c("h1", [_c("img", { attrs: { src: "/images/free-logo.jpg" } })])
+      _c("h1", [_c("img", { attrs: { src: "/images/logos/curbed.png" } })])
     ]),
     _vm._v(" "),
     _vm._m(0)
@@ -37489,7 +37491,7 @@ var staticRenderFns = [
     return _c(
       "div",
       { staticClass: "col-md-2 col-sm-4", attrs: { id: "last-item" } },
-      [_c("i", { staticClass: "row-down" })]
+      [_c("i", { staticClass: "fas fa-arrow-down" })]
     )
   }
 ]
@@ -50298,15 +50300,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************************************!*\
   !*** ./resources/js/components/NavbarComponent.vue ***!
   \*****************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavbarComponent_vue_vue_type_template_id_485090b2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NavbarComponent.vue?vue&type=template&id=485090b2& */ "./resources/js/components/NavbarComponent.vue?vue&type=template&id=485090b2&");
 /* harmony import */ var _NavbarComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/NavbarComponent.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _NavbarComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _NavbarComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -50336,7 +50337,7 @@ component.options.__file = "resources/js/components/NavbarComponent.vue"
 /*!******************************************************************************!*\
   !*** ./resources/js/components/NavbarComponent.vue?vue&type=script&lang=js& ***!
   \******************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
